@@ -176,3 +176,12 @@
 // const doubleDigitHours = String(hours).padStart(2, 0);
 // const doubleDigitMinutes = String(minutes).padStart(2, 0);
 // console.log(`${doubleDigitHours}:${doubleDigitMinutes}`);
+
+function makeOrderMessage(orderedQuantity, pricePerDroid, deliveryFee) {
+  // Change code below this line
+console.log((orderedQuantity * pricePerDroid) + deliveryFee);
+  
+// Change code above this line
+  return message(`You ordered droids worth ${((orderedQuantity * pricePerDroid) + deliveryFee)} credits. Delivery (${deliveryFee} credits) is included in total price.`);
+}
+console.log(message);
