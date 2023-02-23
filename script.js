@@ -185,3 +185,15 @@
 // // Change code above this line
 //   return message
 // }
+
+// const getUsersWithEyeColor = (users, color) => {
+//  const userEyeColor = users.filter(user => user.eyeColor === color);
+//     return userEyeColor;
+// };
+// console.log()
+
+// const getUsersWithFriend = (users, friendName) => {
+//     const UserWithFriend = users.filter(user => users.filter(user => user.friends.includes(friendName)));
+//  }
+
+
